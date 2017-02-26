@@ -48,13 +48,13 @@ int main()
 		case 's':
 		{
 			DWORD dwCount = SuspendThread(hThread);
-			cout << "Thread suspend count == " << dwCount << endl;
+			cout << "Thread suspend count == " << ++dwCount << endl; // SuspendThread returns previous suspend status
 			break;
 		}
 		case 'r':
 		{
 			DWORD dwCount = ResumeThread(hThread);
-			cout << "Thread suspend count == " << dwCount << endl;
+			cout << "Thread suspend count == " << (dwCount - 1 >= 0 ? --dwCount : 0) << endl; // ResumeThread returns previous suspend status
 			break;
 		}
 		}
