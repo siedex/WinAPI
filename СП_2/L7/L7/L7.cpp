@@ -1,7 +1,6 @@
 ﻿// L7.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include <windows.h>
 #include <iostream>
 
@@ -14,7 +13,7 @@ int main()
 	CharToOem(sml, sml);
 	cout << big << endl;
 	cout << sml << endl;
-
+	
     return 0;
 }
 
