@@ -32,7 +32,7 @@ int main()
 		if (c == 't')
 		{
 			_cputs("t\n");
-			// завершаем новый процесс 
+			
 			TerminateProcess(processInformation.hProcess, 0);
 			break;
 		}
