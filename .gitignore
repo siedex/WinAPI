@@ -40,10 +40,11 @@
 СП_3/L1/Debug/
 СП_3/L4/Debug/
 СП_3/ParentProcess/Debug/
-Курсовая/
 СП_5/ConsoleApplication1/ConsoleApplication1/Debug/
 *.idb
 *.obj
 *.tlog
 *.exe
 *.log
+*.res
+*.enc
