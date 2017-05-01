@@ -1,0 +1,6 @@
+LIBRARY "MainLibrary" 
+EXPORTS 
+count @1 DATA 
+Add @2 
+Sub @3
+

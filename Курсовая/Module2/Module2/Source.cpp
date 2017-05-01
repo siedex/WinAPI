@@ -146,7 +146,7 @@ void Thread(void *pIndex)
 	srand(args->seed);
 
 	RECT rect = areas[args->threadID];
-	HBRUSH brush = CreateSolidBrush(RGB(rand() % 257, rand() % 257, rand() % 257));
+	HBRUSH brush = CreateSolidBrush(RGB(rand() % 256, rand() % 256, rand() % 256));
 	FillRect(args->hdc, &rect, brush);
 
 	DeleteObject(brush);
